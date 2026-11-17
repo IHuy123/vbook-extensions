@@ -1,0 +1,5 @@
+function execute() {
+    return Response.success([
+        { title: "主页", input: "/", script: "up.js" }
+    ]);
+}

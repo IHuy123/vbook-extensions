@@ -1,0 +1,44 @@
+{
+  "metadata": {
+    "name": "Pixiv Novel",
+	"nsfw": true,
+    "author": "IHuy",
+    "version": 1,
+    "source": "https://www.pixiv.net/en/tags/%E4%B8%AD%E6%96%87/novels",
+    "regexp": "https?://(?:www\\.)?pixiv\\.net/(?:\\w+/)?(?:novel/(?:series/\\d+|show\\.php\\?id=\\d+|\\d+)|users/\\d+).*",
+    "description": "Đọc truyện trên trang https://www.pixiv.net",
+    "locale": "zh_CN",
+    "type": "chinese_novel"
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "search": "search.js",
+    "detail": "detail.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  },
+  "config": {
+    "scan_chapters": {
+      "title": "Số chương đầu quét ảnh ở trang chi tiết series (0 = tắt)",
+      "default": "2",
+      "values": ["0", "1", "2", "3", "5", "10"],
+      "mode": "select"
+    },
+    "image_quality": {
+      "title": "Chất lượng ảnh trong chương",
+      "default": "Nhỏ",
+      "values": ["Nhỏ", "Vừa", "Gốc"],
+      "mode": "select"
+    },
+    "custom_tags": {
+      "title": "Tag của bạn (thêm / sửa / xóa từng tag)",
+      "mode": "database"
+    },
+    "bulk_tags": {
+      "title": "Thêm hàng loạt tag (dán nhiều tag, cách nhau bằng dấu phẩy hoặc xuống dòng)",
+      "default": "",
+      "mode": "input"
+    }
+  }
+}
