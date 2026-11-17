@@ -1,0 +1,32 @@
+{
+  "metadata": {
+    "author": "IHuy",
+    "description": "Tiện ích Vbook"
+  },
+  "data": [
+    {
+      "name": "Pixiv Novel",
+      "author": "IHuy",
+      "path": "https://raw.githubusercontent.com/IHuy123/vbook-extensions/main/pixiv/plugin.zip",
+      "icon": "https://raw.githubusercontent.com/IHuy123/vbook-extensions/main/pixiv/icon.png",
+      "version": 1,
+      "source": "https://www.pixiv.net",
+      "description": "Đọc truyện Pixiv (R-18 cần cookie đăng nhập)",
+      "type": "chinese_novel",
+      "locale": "zh_CN",
+      "tag": "nsfw"
+    },
+    {
+      "name": "book18",
+      "author": "IHuy",
+      "path": "https://raw.githubusercontent.com/IHuy123/vbook-extensions/main/book18/plugin.zip",
+      "icon": "https://raw.githubusercontent.com/IHuy123/vbook-extensions/main/book18/icon.png",
+      "version": 1,
+      "source": "https://www.book18.org",
+      "description": "Đọc truyện trên book18, gộp truyện trùng",
+      "type": "novel",
+      "locale": "zh_CN",
+      "tag": "nsfw"
+    }
+  ]
+}
