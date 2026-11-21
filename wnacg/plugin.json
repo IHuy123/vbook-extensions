@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "name": "Wnacg",
+    "author": "IHuy",
+    "version": 1,
+    "source": "https://www.wnacg.com",
+    "description": "Đọc truyện tranh / bản hán hóa từ wnacg.com (紳士漫畫)",
+    "locale": "zh",
+    "regexp": "(https?://)?(www\\.)?wnacg\\.com/photos-index(-page-\\d+)?-aid-\\d+(\\.html)?",
+    "type": "comic",
+    "nsfw": true
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "search": "search.js",
+    "detail": "detail.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  },
+  "config": {
+    "DOMAIN": {
+      "title": "Domain",
+      "default": "https://www.wnacg.com",
+      "mode": "input",
+      "format": "text"
+    }
+  }
+}
