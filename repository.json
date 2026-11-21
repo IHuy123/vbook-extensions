@@ -27,6 +27,18 @@
       "type": "novel",
       "locale": "zh_CN",
       "tag": "nsfw"
+    },
+    {
+      "name": "Wnacg",
+      "author": "IHuy",
+      "path": "https://raw.githubusercontent.com/IHuy123/vbook-extensions/main/wnacg/plugin.zip",
+      "icon": "https://raw.githubusercontent.com/IHuy123/vbook-extensions/main/wnacg/icon.png",
+      "version": 1,
+      "source": "https://www.wnacg.com",
+      "description": "Đọc truyện tranh / bản hán hóa từ wnacg.com (紳士漫畫)",
+      "type": "comic",
+      "locale": "zh",
+      "tag": "nsfw"
     }
   ]
 }
