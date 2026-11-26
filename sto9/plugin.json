@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "name": "Sto9",
+    "author": "IHuy",
+    "version": 1,
+    "source": "https://sto9.com",
+    "regexp": "sto9\\.com/book/\\d+\\.html",
+    "description": "Đọc truyện chữ tiếng Trung phồn thể trên Sto9.com ",
+    "locale": "zh-CN",
+    "type": "chinese_novel"
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "detail": "detail.js",
+    "search": "search.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}
