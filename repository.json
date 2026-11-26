@@ -39,6 +39,17 @@
       "type": "comic",
       "locale": "zh",
       "tag": "nsfw"
+    },
+    {
+      "name": "Sto9",
+      "author": "IHuy",
+      "path": "https://raw.githubusercontent.com/IHuy123/vbook-extensions/main/sto9/plugin.zip",
+      "icon": "https://raw.githubusercontent.com/IHuy123/vbook-extensions/main/sto9/icon.png",
+      "version": 1,
+      "source": "https://sto9.com",
+      "description": "Đọc truyện chữ tiếng Trung phồn thể trên Sto9.com ",
+      "type": "novel",
+      "locale": "zh_CN"
     }
   ]
 }
